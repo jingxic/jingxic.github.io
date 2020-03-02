@@ -1,0 +1,361 @@
+body {
+    margin: 0;
+    font-family: 'Didot';
+    color: #4F3F37;
+}
+
+/*********** HEADER ************/
+
+header {
+    font-family: 'Didot';
+    background-color: #94877F;
+    padding-top: 5px;
+    padding-bottom: : 5px;
+    border-bottom: 10px solid #777069;
+}
+
+
+#logo {
+    width: 75px;
+    height: auto;
+
+    float: left;
+    position: relative;
+    top: 8px;
+    left: 20px;
+}
+
+#cart {
+    width: auto;
+    height: 35px;
+
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 170px;
+}
+
+#fav {
+    width: auto;
+    height: 35px;
+
+    float: right;
+    position: relative;
+    top: 15px;
+    left: 150px;
+}
+
+input {
+    float: right;
+    position: relative;
+    top: 15px;
+    right: 150px;
+    padding-top: 50px;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 100px;
+    color: white;
+    font-size: 45px;
+    text-align: left;
+}
+
+h2 {
+    margin: 0;
+    padding-left: 105px;
+    color: white;
+    font-size: 11px;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+nav {
+    margin: 0;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid black;
+    text-align: center;
+}
+
+a {
+    color: #4F3F37;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+b {
+    color: #4F3F37;
+    float: right;
+    text-decoration: none;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+/*********** INDEX ************/
+#living-room {
+    width: 55%;
+    height: auto;
+
+    position: relative;
+    top: 15px;
+    /*left: 30px;*/
+}
+
+#desk {
+    width: 25%;
+    height: auto;
+
+    float: right;
+    position: relative;
+    top: 15px;
+}
+
+#cotton {
+    width: 19%;
+    height: auto;
+
+    float: right;
+    position: absolute;
+    top: 380px;
+    left: 820px;
+
+}
+
+#home-content {
+    padding-bottom: 25px;
+    border-bottom: 5px solid #777069;  
+}
+
+#home-intro1{
+    width: 180px;
+
+    position: absolute;
+    top: 160px;
+    left: 820px;
+}
+
+#home-intro2{
+    width: 200px;
+
+    position: absolute;
+    top: 500px;
+    left: 1170px;
+}
+
+/*********** ITEMS ************/
+
+#items-content {
+    font-family: "Gill Sans";
+}
+
+#filter {
+
+    position: absolute;
+    top: 120px;
+    left: 20px;
+    margin-top: 10px;
+    padding-right: 10px;
+
+    border-right: 5px solid #777069;
+}
+
+#filter-icon {
+    width: 70px;
+    height: auto;
+
+    position: relative;
+    top: 15px;
+
+    padding-bottom: 20px
+}
+
+#filter-indication {
+    position: relative;
+    bottom: 15px;
+}
+
+.filter-title {
+    font-size: 15px;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #777069; 
+}
+
+#filter-type {
+    width: 120px;
+    height: auto;
+}
+
+#filter-color {
+    width: 150px;
+    height: auto;
+}
+
+#filter-filling {
+    width: 200px;
+    height: auto;
+}
+
+
+#display-window {
+    font-size: 15px;
+    padding-top: 20px;
+}
+
+img.items {
+    width: 850px;
+
+    position: absolute;
+    top: 160px;
+    left: 350px;
+}
+
+img.scroll {
+    height: 520px;
+}
+
+#scroll-item {
+    position:absolute;
+    top: 140px;
+    left: 1300px;
+}
+
+/*********** Detail ************/
+img.thumbnail {
+    border: 2px solid #777069;
+    width: 50px;
+    padding: 5px;
+}
+
+#tn1 {
+    position:absolute;
+    top: 150px;
+    left: 20px;
+    
+}
+
+#tn2 {
+    position:absolute;
+    top: 230px;
+    left: 20px;
+}
+
+#scroll-thumb {
+    position:absolute;
+    top: 140px;
+    left: 100px;
+}
+
+#couch {
+    width: 650px;
+
+    position:absolute;
+    top: 150px;
+    left: 180px;
+}
+
+div.details {
+    position: absolute;
+    top: 200px;
+    left:1000px;
+}
+
+#fav-icon {
+    width: 30px;
+    position: relative;
+    bottom: 40px;
+    right: 170px;
+}
+
+#color-indicator {
+    width: 100px;
+}
+
+#filling-indicator {
+    width: 200px;
+    padding-bottom: 20px;
+    border-bottom: 2px solid #777069;
+}
+
+p.review {
+    font-size: 12px;
+}
+
+#top-add {
+    position: relative;
+    top: 2px;
+    left: 120px;
+}
+#bottom-add {
+    position: relative;
+    top: 2px;
+    left: 120px;
+}
+
+#quantity-top {
+    width: 45px;
+    position: relative;
+    top: 2px;
+    right: 120px;
+}
+
+#quantity-bottom {
+    width: 45px;
+    position: relative;
+    top: 2px;
+    right: 120px;
+}
+
+/*********** FOOTER ************/
+img.nav-bar {
+    width: 450px;
+
+    position: absolute;
+    top: 670px;
+    left: 500px;
+    padding-top: 20px;
+}
+
+/*********** Others ************/
+button.start {
+    border-radius: 10px;
+    background-color: #506F5D;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    font-size: 0.8em;
+    font-family: "Didot";
+
+    width: 200px;
+    float: right;
+    position: absolute;
+    top: 675px;
+    left: 1200px;
+}
+
+button.add {
+    border-radius: 2px;
+    background-color: #777069;
+    border: 1px solid black;
+    padding: 10px;
+    color: white;
+    font-size: 0.8em;
+    font-family: "Didot";
+
+/*    width: 200px;
+    float: right;
+    position: absolute;
+    top: 675px;
+    left: 1200px;*/
+}
+
+input {
+    padding: 10px;
+    font-size: 0.8em;
+}
+
+label {
+    font-size: 16px;
+}
