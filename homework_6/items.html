@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fluff Stuff</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- top header -->
+        <header>
+            <img id="logo" src="images/icons/logo.png"/>
+            <input id="search" type="text" placeholder="Search Pillows...">
+            <img id="cart" src="images/icons/cart.png" usemap="#toCart"/>
+            <map name="toCart">
+                  <area shape="rect" coords="0,0,190,190" alt="cart" href="cart.html">     
+            </map>  
+            <img id="fav" src="images/icons/fav.png"/>
+            <h1>Fluff Stuff</h1> 
+            <h2>Cotton Pillows That Turn Any Room Cozy</h2>
+        </header>
+
+        <!-- nav bar -->
+        <nav>
+            <a href="index.html">About</a> 
+            <a>Collection</a>
+            <a>Occasion</a>
+            <a>Color</a>
+            <a>Filling</a>
+            <a>Sale</a>
+            <b>Sign In</b>
+        </nav>
+
+        <!-- content of the items page -->
+        <div id="items-content" align="left">
+
+            <!-- filter -->
+            <div id="filter">
+                <img id="filter-icon" src="images/icons/filter.png"/>
+                <a id="filter-indication">Pillow Filter</a>
+
+                <p class="filter-title">Pillow Type</p>
+                <img id="filter-type" src="images/items/filter-type.png"/>
+
+                <p class="filter-title">Pillow Color</p>
+                <img id="filter-color" src="images/items/filter-color.png"/>
+
+                <p class="filter-title">Pillow Filling</p>
+                <img id="filter-filling" src="images/items/filter-filling.png"/>
+            </div>
+
+            <!-- display window -->
+            <div id="display-window">
+                <img class="items" src="images/items/items.png" usemap="#todetail"/>
+                <map name="todetail">
+                  <area shape="rect" coords="5,5,190,190" alt="Pillow1" href="detail.html">
+                  <area shape="rect" coords="325,5,500,190" alt="Pillow2" href="detail.html">
+                  <area shape="rect" coords="645,5,800,190" alt="Pillow3" href="detail.html">
+                  <area shape="rect" coords="5,245,190,430" alt="Pillow4" href="detail.html">
+                  <area shape="rect" coords="325,245,500,430" alt="Pillow5" href="detail.html">
+                  <area shape="rect" coords="645,245,800,430" alt="Pillow6" href="detail.html">
+                </map>
+
+                <img id="scroll-item" class="scroll" src="images/icons/scroll-bar.png">
+            </div>
+
+        </div>
+
+        <!-- footer -->
+        <div id="footer">
+            <img class="nav-bar" src="images/icons/status-bar2.png">
+        </div>
+        
+
+    </div>
+</body>
+
+</html>

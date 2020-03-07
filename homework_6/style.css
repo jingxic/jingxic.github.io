@@ -27,12 +27,12 @@ header {
 
 #cart {
     width: auto;
-    height: 35px;
+    height: 30px;
 
     float: right;
     position: relative;
-    top: 15px;
-    left: 170px;
+    top: 20px;
+    left: 160px;
 }
 
 #fav {
@@ -248,18 +248,107 @@ img.thumbnail {
     left: 100px;
 }
 
-#couch {
-    width: 650px;
+#colorImage {
+    height: 500px;
 
     position:absolute;
     top: 150px;
     left: 180px;
 }
 
-div.details {s
+#fillingImage{
+    height: 100px;
+
+    position:absolute;
+    top: 350px;
+    left: 380px;
+}
+
+div.details {
     position: absolute;
     top: 200px;
     left:1000px;
+}
+
+div.selection {
+    position: absolute;
+    top: 200px;
+    left:1000px;
+}
+
+    /*Color Selection*/
+#afterSchoolSpecial{
+    position: absolute;
+    top: 52px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+#morningHaze{
+    position: absolute;
+    top: 72px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+#cozyDemin{
+    position: absolute;
+    top: 92px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+    /*Filling Selection*/
+#duckDown{
+    position: absolute;
+    top: 163px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+#polyBlend{
+    position: absolute;
+    top: 183px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+#memoryFoam {
+    position: absolute;
+    top: 203px;
+    left: -20px;
+/*    background-color: #D4C1BE;
+    border-color: #D4C1BE;*/
+}
+
+#quantityInput {
+    position: absolute;
+    top: 280px;
+    width: 30px;
+}
+
+#detailAddButton{
+    position: relative;
+    top: 35px;
+}
+
+#cartNotification{ 
+    position: absolute;
+    top: 520px;
+    left: 990px;
+}
+
+#cartList {
+    background: #777069;
+    color: white;
+    width: 400px;
+    display: none;
+    float: right;
 }
 
 #fav-icon {
@@ -278,6 +367,7 @@ div.details {s
     padding-bottom: 20px;
     border-bottom: 2px solid #777069;
 }
+
 
 p.review {
     font-size: 12px;

@@ -15,7 +15,10 @@
         <header>
             <img id="logo" src="images/icons/logo.png"/>
             <input id="search" type="text" placeholder="Search Pillows...">
-            <img id="cart" src="images/icons/cart.png"/>
+            <img id="cart" src="images/icons/cart.png" usemap="#toCart"/>
+            <map name="toCart">
+                  <area shape="rect" coords="0,0,190,190" alt="cart" href="cart.html">     
+            </map>  
             <img id="fav" src="images/icons/fav.png"/>
 
             <h1>Fluff Stuff</h1> 
@@ -38,7 +41,7 @@
 
             <!-- thumbnails -->
             <div class="cart-images">
-                <img id="order1" class="order" src="images/detail/pillow.png"/>
+                <img id="order1" class="order" src="images/detail/cozyDenim.png"/>
                 <!-- <img id="scroll-thumb" class="scroll" src="images/icons/scroll-bar.png"> -->
             </div>
 
@@ -70,7 +73,7 @@
 
             <div class="summary">
                 <p>Summary</p>
-                <img id="summary1" class="thumbnail" src="images/detail/pillow.png"/>
+                <img id="summary1" class="thumbnail" src="images/detail/cozyDenim.png"/>
                 <p class="review">Cozy Denim/Duck Down</p>
                 <p class="review">Quantity: 2</p>
                 <p class="review">Unit Price: $15</p>

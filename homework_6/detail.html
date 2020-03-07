@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Fluff Stuff</title>
+    <!-- styles -->
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <!-- fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
+    <!-- javascript -->
+    <script src="detailPage.js"></script>
+</head>
+
+<body>
+    <div id="container">
+
+        <!-- top header -->
+        <header>
+            <img id="logo" src="images/icons/logo.png"/>
+            <input id="search" type="text" placeholder="Search Pillows...">
+            <img id="cart" src="images/icons/cart.png" usemap="#toCart"/>
+            <map name="toCart">
+                  <area shape="rect" coords="0,0,190,190" alt="cart" href="cart.html" 
+                  onmouseover="showCart();" onmouseout="hideCart();">     
+            </map>      
+            <img id="fav" src="images/icons/fav.png"/>
+
+            <h1>Fluff Stuff</h1> 
+            <h2>Cotton Pillows That Turn Any Room Cozy</h2>
+        </header>
+
+        <!-- nav bar -->
+        <nav>
+            <a href="index.html">About</a> 
+            <a>Collection</a>
+            <a>Occasion</a>
+            <a>Color</a>
+            <a>Filling</a>
+            <a>Sale</a>
+            <b>Sign In</b>
+        </nav>
+
+        <div class="detail-images">
+            <img id="colorImage" src="images/detail/afterSchoolSpecial.png"/>
+            <img id="fillingImage" src="images/icons/duckDown.png"/>
+        </div>
+
+        <div class = "selection">
+            <p>Color:</p>
+            <input type="radio" id="afterSchoolSpecial" 
+            name="color" value="afterSchoolSpecial" checked="checked"
+            onclick="updateColor('afterSchoolSpecial');">
+            <label for="afterSchoolSpecial">After School Special</label><br>
+            <input type="radio" id="morningHaze" name="color" value="morningHaze"
+            onclick="updateColor('morningHaze');">
+            <label for="morningHaze">Morning Haze</label><br>
+            <input type="radio" id="cozyDemin" name="color" value="cozyDemin"
+            onclick="updateColor('cozyDemin');">
+            <label for="cozyDemin">Cozy Demin</label>
+
+            <br>  
+
+            <p>Filling:</p>
+            <input type="radio" id="duckDown" name="filling" value="duckDown"
+            checked="checked" 
+            onclick="updateFilling('duckDown');">
+            <label for="duckDown">Duck Down</label><br>
+            <input type="radio" id="polyBlend" name="filling" value="polyBlend"
+            onclick="updateFilling('polyBlend');">
+            <label for="polyBlend">Hypoallergenic Poly-Blend</label><br>  
+            <input type="radio" id="memoryFoam" name="filling" value="memoryFoam"
+            onclick="updateFilling('memoryFoam');">
+            <label for="memoryFoam">Memory Foam</label><br><br>
+
+            <label for="quantity">Quantity</label>
+            <input type="number" id="quantityInput" name="quantity" min="0" value="1">
+            
+            <button class="add" id="detailAddButton"
+            onclick="addToCart();"> Add To Cart</button>
+        </div>
+
+        <p id="cartNotification"></p>
+
+        <div class = "cartItems">
+            <ol id="cartList">
+            </ol>
+        </div>
+
+
+        <!-- footer -->
+        <div id="footer">
+            <img class="nav-bar" src="images/icons/status-bar3.png">
+        </div>
+        
+    </div>
+</body>
+
+</html>
