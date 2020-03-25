@@ -7,7 +7,7 @@
     <!-- fonts -->
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <!-- javascript -->
-    <script src="detailPage.js"></script>
+    <script src="cart.js"></script>
 </head>
 
 <body>
@@ -48,13 +48,13 @@
             <p>Color:</p>
             <input type="radio" id="afterSchoolSpecial" 
             name="color" value="afterSchoolSpecial" checked="checked"
-            onclick="updateColor('afterSchoolSpecial');">
+            onclick="updateColor('After School Special');">
             <label for="afterSchoolSpecial">After School Special</label><br>
             <input type="radio" id="morningHaze" name="color" value="morningHaze"
-            onclick="updateColor('morningHaze');">
+            onclick="updateColor('Morning Haze');">
             <label for="morningHaze">Morning Haze</label><br>
             <input type="radio" id="cozyDemin" name="color" value="cozyDemin"
-            onclick="updateColor('cozyDemin');">
+            onclick="updateColor('Cozy Demin');">
             <label for="cozyDemin">Cozy Demin</label>
 
             <br>  
@@ -62,13 +62,13 @@
             <p>Filling:</p>
             <input type="radio" id="duckDown" name="filling" value="duckDown"
             checked="checked" 
-            onclick="updateFilling('duckDown');">
+            onclick="updateFilling('Duck Down');">
             <label for="duckDown">Duck Down</label><br>
             <input type="radio" id="polyBlend" name="filling" value="polyBlend"
-            onclick="updateFilling('polyBlend');">
+            onclick="updateFilling('Poly Blend');">
             <label for="polyBlend">Hypoallergenic Poly-Blend</label><br>  
             <input type="radio" id="memoryFoam" name="filling" value="memoryFoam"
-            onclick="updateFilling('memoryFoam');">
+            onclick="updateFilling('Memory Foam');">
             <label for="memoryFoam">Memory Foam</label><br><br>
 
             <label for="quantity">Quantity</label>
@@ -81,7 +81,7 @@
         <p id="cartNotification"></p>
 
         <div class = "cartItems">
-            <ol id="cartList">
+            <ol id="cartListDetail">
             </ol>
         </div>
 
