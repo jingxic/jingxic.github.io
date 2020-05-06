@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Learn Musical Modes</title>
+
+  <!-- Import Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Import p5-->
+  <script src="../Assets/lib_js/p5.min.js"></script>
+  <script src="../Assets/lib_js/p5.dom.min.js"></script>
+  <script src="../Assets/lib_js/p5.sound.min.js"></script>
+  <!-- style -->
+	<link href="../Assets/style.css" rel="stylesheet">
+  <!-- javacripts -->
+  <script src="../Assets/other_js/navbar.js"></script>
+  <script src="../Assets/pianos_p5_js/sketch2.js"></script>
+
+</head>
+<body>
+
+
+<!-- Vertical navbar -->
+<div class="vertical-nav bg-dark" id="sidebar">
+
+  <!-- logos -->
+  <div class="py-4 px-3 mb-4 bg-dark">
+    <div class="media d-flex align-items-center">
+      <!-- logo -->
+      <a href="#">
+        <img src="../Assets/img/logo.png" width="65" class="mr-3 rounded-circle img-thumbnail">
+      </a>
+      <!-- Title and short Intro -->
+      <div class="media-body">
+        <h4 class="m-0 text-white">MuMoic</h4>
+        <p class="font-weight-light text-muted mb-0">Mode Learner</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intros -->
+  <p class="text-dark bg-white font-weight-bold text-uppercase px-3 big pb-0 mt-2 mb-2">Introduction</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a href="../index.html#origin" class="nav-link text-white bg-dark">
+            Origin
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="../index.html#intro" class="nav-link text-white bg-dark">
+            Quick Intro
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="../index.html#interval" class="nav-link text-white bg-dark">
+            Interval/Step
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="../index.html#try" class="nav-link text-white bg-dark">
+            Try It
+            </a>
+    </li>
+  </ul>
+
+
+  <!-- Mode Selection -->
+  <p class="text-dark bg-white font-weight-bold text-uppercase px-3 big pb-0 mt-2 mb-2">Explore Modes</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a href="Ionian.html" class="nav-link text-white bg-dark">
+            Ionian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Dorian.html" class="nav-link text-white bg-dark">
+            Dorian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Phrygian.html" class="nav-link text-white bg-dark">
+            Phrygian  
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Lydian.html" class="nav-link text-white bg-dark">
+            Lydian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Mixolydian.html" class="nav-link text-white bg-dark">
+            Mixolydian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Aeolian.html" class="nav-link text-white bg-dark">
+            Aeolian  
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="Locrian.html" class="nav-link text-white bg-dark">
+            Locrian
+            </a>
+    </li>
+  </ul>
+
+</div>
+<!-- End vertical navbar -->
+
+
+<!-- Page content holder -->
+<div class="page-content p-5" id="content">
+
+  <!-- Selection button -->
+  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">COURSE SECTION</small></button>
+  <!-- End of selection button -->
+
+  <!-- Keyboard and Detailed Description -->
+  <h2 class="display-4 text-white">II.Dorian</h2>
+	<div id="Ionian">
+	  <div class="separator"></div>
+
+	  <div class="row text-white">
+      <!-- Keyboard -->
+	  	<div class="col-lg-4">
+				<div id="sketch-holder">
+				</div>
+			</div>
+      <!-- End of Keyboard -->
+
+      <!-- Detailed Description -->
+			<div class="col-lg-8 col-md-6">
+				<h2>"The Unrelated Minor Chord"</h2><br>
+				<p>
+          <a href="../index.html#interval" class="text-white">Intervals</a>: 2-1-2-2-2-1-2
+        </p>
+				<p>
+          The Dorian Mode is a minor type scale (it has a b3) and is most commonly used for jazz and blues improvisation. It is usually the first choice for playing over an unrelated minor chord.
+        </p>
+        <p>You can feel the sound of this music mode by playing with the keyboard on the left.</p>
+				<br>
+        <a href="Ionian.html" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 mr-5">&lt Last Mode </a>
+				<a href="Phrygian.html" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4">Next Mode &gt</a>
+			</div>
+      <!-- End of Detailed Description -->
+	  </div>
+	</div>
+  <!-- End of Page content holder -->
+
+</div>
+
+</body>
+</html>
+

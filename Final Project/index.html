@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Learn Musical Modes</title>
+
+  <!-- Import Bootstrap-->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<script src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+  <!-- Import p5-->
+  <script src="Assets/lib_js/p5.min.js"></script>
+  <script src="Assets/lib_js/p5.dom.min.js"></script>
+  <script src="Assets/lib_js/p5.sound.min.js"></script>
+  <!-- style -->
+	<link href="Assets/style.css" rel="stylesheet">
+  <!-- javacripts -->
+  <script src="Assets/other_js/navbar.js"></script>
+
+</head>
+<body>
+
+
+<!-- Vertical navbar -->
+<div class="vertical-nav bg-dark" id="sidebar">
+
+  <!-- logos -->
+  <div class="py-4 px-3 mb-4 bg-dark">
+    <div class="media d-flex align-items-center">
+      <!-- logo -->
+      <a href="#">
+      	<img src="Assets/img/logo.png" width="65" class="mr-3 rounded-circle img-thumbnail">
+      </a>
+      <!-- Title and short Intro -->
+      <div class="media-body">
+        <h4 class="m-0 text-white">MuMoic</h4>
+        <p class="font-weight-light text-muted mb-0">Mode Learner</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Intros -->
+  <p class="text-dark bg-white font-weight-bold text-uppercase px-3 big pb-0 mt-2 mb-2">Introduction</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a href="#origin" class="nav-link text-white bg-dark">
+            Origin
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="#intro" class="nav-link text-white bg-dark">
+            Quick Intro
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="#interval" class="nav-link text-white bg-dark">
+            Interval/Step
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="#try" class="nav-link text-white bg-dark">
+            Try It
+            </a>
+    </li>
+	</ul>
+
+
+  <!-- Mode Selection -->
+  <p class="text-dark bg-white font-weight-bold text-uppercase px-3 big pb-0 mt-2 mb-2">Explore Modes</p>
+  <ul class="nav flex-column bg-white mb-0">
+    <li class="nav-item">
+      <a href="modes_html/Ionian.html" class="nav-link text-white bg-dark">
+            Ionian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Dorian.html" class="nav-link text-white bg-dark">
+            Dorian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Phrygian.html" class="nav-link text-white bg-dark">
+            Phrygian  
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Lydian.html" class="nav-link text-white bg-dark">
+            Lydian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Mixolydian.html" class="nav-link text-white bg-dark">
+            Mixolydian
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Aeolian.html" class="nav-link text-white bg-dark">
+            Aeolian  
+            </a>
+    </li>
+    <li class="nav-item">
+      <a href="modes_html/Locrian.html" class="nav-link text-white bg-dark">
+            Locrian
+            </a>
+    </li>
+  </ul>
+
+</div>
+<!-- End vertical navbar -->
+
+
+<!-- Page content holder -->
+<div class="page-content p-5" id="content">
+
+  <!-- Selection button -->
+  <button id="sidebarCollapse" type="button" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">COURSE SECTION</small></button>
+  <!-- End of selection button -->
+
+  <!-- General intro -->
+  <h2 class="display-4 text-white">MUSICAL MODE</h2>
+  <p class="lead text-white mb-0">
+  	In the theory of Western music, a mode is a type of musical scale coupled with a set of characteristic melodic behaviors.
+  </p>
+  <div class="separator"></div>
+	<!-- End of general intro -->
+
+	<!-- Origin section -->
+  <h2 class="display-6 text-white" id="origin"><i class="fas fa-music"></i> Origin</h2><br>
+  <p class="text-light">
+		Musical modes have been a part of western musical thought since the Middle Ages, and were inspired by the theory of ancient Greek music. The name mode derives from the Latin word modus, "measure, standard, manner, way, size, limit of quantity, method".
+ 	</p>
+ 	<div class="separator"></div>
+ 	<!-- End of origin section -->
+
+ 	<!-- Quick intro section -->
+  <h2 class="display-6 text-white" id="intro"><i class="fas fa-music"></i> QUICK INTRO</h2><br>
+  <p class="text-light">
+
+  	I am Pretty sure You are familiar with the music scale we hear about in our everyday life. Without any other specification, we usually associate them with the following notes:<br><br>
+
+  	<a class="bg-white text-dark">&nbspDo Re Mi Fa Sol La Ti&nbsp</a><br>
+  	<a class="bg-white text-dark">&nbspC&nbsp D&nbsp E&nbsp F&nbsp G&nbsp&nbsp A&nbsp B&nbsp&nbsp</a><br><br>
+
+  	If we order these notes from the lowest(C) to the highest(B), then we will have the natural Major scale. When we vary the Music Modes, we are simply change the starting lowest note in such pattern. Because there are <a class="bg-white text-dark">7</a> different notes, naturally we have <a class="bg-white text-dark">7</a> types of Music Modes. Based on which note is the lowest, they can be represented as:<br><br>
+
+  		I.&nbsp&nbsp<a class="bg-white text-dark" href="modes_html/Ionian.html" class="text-dark">&nbsp> Ionian&nbsp</a><br>
+  		II.&nbsp<a class="bg-white text-dark" href="modes_html/Dorian.html" class="text-dark">&nbsp> Dorian&nbsp</a><br>
+  		III.<a class="bg-white text-dark" href="modes_html/Phrygian.html" class="text-dark">&nbsp> Phrygian&nbsp</a><br>
+  		IV.&nbsp<a class="bg-white text-dark" href="modes_html/Lydian.html" class="text-dark">&nbsp> Lydian&nbsp</a><br>
+  		V.&nbsp&nbsp<a class="bg-white text-dark" href="modes_html/Mixolydian.html" class="text-dark">&nbsp> Mixolydian&nbsp</a><br>
+  		VI.&nbsp<a class="bg-white text-dark" href="modes_html/Aeolian.html" class="text-dark">&nbsp> Aeolian&nbsp</a><br>
+  		VII.<a class="bg-white text-dark" href="modes_html/Locrian.html" class="text-dark">&nbsp> Locrian&nbsp</a>
+
+  </p>
+  <div class="separator"></div>
+  <!-- End of quick intro section -->
+
+  <!-- Interval Section -->
+	<h2 class="display-6 text-white" id="interval"><i class="fas fa-music"></i> INTERVAL/STEP</h2><br>
+  <p class="text-light">
+  	<a class="bg-white text-dark">Pitch</a> measures how "high" or "low" a sound is.<br><br>
+  	
+  	We can first talk about a relatively familiar concept: <a class="bg-white text-dark">Melody</a>.<br>
+  	Melody is basically a sequence of music notes, the way it sounds a certain way is actually more dependent on the relative pitch difference between the notes, but not the pitch of each note. We can denote the difference in pitch as <a class="bg-white text-dark">Interval</a>, which can be measured in the unit <a class="bg-white text-dark">Step</a>. There are essentially two types of Steps:<br><br>
+  	<a class="bg-white text-dark">&nbspWhole Step = 2 x Half Step&nbsp</a><br><br>
+
+  	Every pair of 2 consecutive notes does not have the same interval. For example, The interval of <a class="bg-white text-dark">C-D</a> is a whole stap, while the interval of <a class="bg-white text-dark">E-F</a> is a half step. We can represent a half step as <a class="bg-white text-dark">-</a>.<br><br>
+
+  	For <a class="bg-white text-dark">Ionian</a>, which is the natural key,the intervals among the 7 notes: <br><br>
+  	<a class="bg-white text-dark">&nbspC--D--E-F--G--A--B-C'&nbsp</a> Or
+  	<a class="bg-white text-dark">&nbsp2 2 1 2 2 2 1&nbsp</a><br><br>
+
+  	For <a class="bg-white text-dark">Dorian</a>, it will become: <br><br>
+  	<a class="bg-white text-dark">&nbspD--E-F--G--A--B-C'--D'&nbsp</a> Or
+  	<a class="bg-white text-dark">&nbsp2 1 2 2 2 1 2&nbsp</a><br><br>
+
+  	Therefore, when we change the music mode, we basically change the structure of a melody, and naturally it will sound different.
+  </p>	
+	<div class="separator"></div>
+	<!-- End of Interval Section -->
+
+	<!-- Try Section -->
+  <h2 class="display-6 text-white" id="try"><i class="fas fa-music"></i> TRY IT!</h2>
+  <p class="text-light">
+  	Now it's time for you to try it yourself and feel how each music mode sounds like!
+  	<a href="modes_html/Ionian.html" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4 mr-5">MODE KEYBOARD</a>
+  </p>
+  <!-- End of Try Section -->
+
+</div>
+<!-- End of page content holder -->
+
+</body>
+</html>
+
